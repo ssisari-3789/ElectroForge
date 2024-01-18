@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Arvo&family=KoHo:wght@300&family=Noto+Sans+Symbols&family=Noto+Sans:wght@300;400&family=Oswald:wght@200;300;400&family=Poppins:wght@400;500;600&family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: noto sans;
+  font-size: 18px;
+  color: #0c2164;
+  line-height: 1.6;
+}
+
+#showcase {
+  background-image: url("images/img3.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#showcase h1 {
+  font-size: 50px;
+  line-height: 1.2;
+  animation-duration: 8s;
+  animation-name: slidein;
+  animation-iteration-count: initial;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+#showcase .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: #0c2164;
+  /* border: 99cff3 1px solid; */
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background: #abdcf8;
+}
+
+#showcase .button:hover {
+  background-image: linear-gradient(#abdcf8, #d2eef7, #abdcf8);
+
+  color: #0c2164;
+}
+
+#section-a {
+  padding: 20px;
+  background: #0c2164;
+  color: #fff;
+  text-align: justify;
+}
+
+#section-b {
+  padding: 20px;
+
+  text-align: center;
+}
+
+#section-c {
+  display: flex;
+}
+
+#section-c div {
+  padding: 20px;
+}
+
+#section-c .box-1,
+#section-c .box-3 {
+  background: #0c2164;
+  color: #fff;
+}
+
+#section-c .box-2 {
+  background: #d4eefa;
+}
+
+.yt-vid {
+  margin-top: 20px;
+}
+
+.para {
+  width: 100%;
+  text-align: justify;
+}
+
+.float {
+  float: left;
+  width: 55%;
+  margin-right: 2%;
+  background: #edf9fc;
+}
